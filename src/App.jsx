@@ -28,7 +28,7 @@ const App = () => {
       setLoading(true);
       try {
         const authorizationString = getAuthorizationString();
-        const response = await fetch("http://api.valantis.store:40000/", {
+        const response = await fetch("https://api.valantis.store:41000/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -72,7 +72,7 @@ const App = () => {
         const idsForPage = dataIds.slice(startIndex, endIndex);
 
         const authorizationString = getAuthorizationString();
-        const response = await fetch("http://api.valantis.store:40000/", {
+        const response = await fetch("https://api.valantis.store:41000/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -125,7 +125,7 @@ const App = () => {
       const authorizationString = getAuthorizationString();
 
       if (idsForFilterPage) {
-        const response = await fetch("http://api.valantis.store:40000/", {
+        const response = await fetch("https://api.valantis.store:41000/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

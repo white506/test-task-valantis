@@ -66,7 +66,7 @@ const ProductFilter = ({ applyFilters, setDataItems }) => {
   const applyPriceFilter = async () => {
     try {
       const authorizationString = getAuthorizationString();
-      const response = await fetch("http://api.valantis.store:40000/", {
+      const response = await fetch("https://api.valantis.store:41000/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -101,7 +101,7 @@ const ProductFilter = ({ applyFilters, setDataItems }) => {
   const applyBrandFilter = async () => {
     try {
       const authorizationString = getAuthorizationString();
-      const response = await fetch("http://api.valantis.store:40000/", {
+      const response = await fetch("https://api.valantis.store:41000/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -140,7 +140,7 @@ const ProductFilter = ({ applyFilters, setDataItems }) => {
     }
     try {
       const authorizationString = getAuthorizationString();
-      const response = await fetch("http://api.valantis.store:40000/", {
+      const response = await fetch("https://api.valantis.store:41000/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
