@@ -1,3 +1,7 @@
+# test-task-valantis
+
+![Main Page](./screenshots/photo_2024-08-05_18-24-01.jpg)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
